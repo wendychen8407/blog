@@ -1,0 +1,18 @@
+{
+  "name": "codeforfun",
+  "version": "1.0.0",
+  "description": "It's a fun way to learn to code, and I will use it to practice my code and write some articles",
+  "main": "index.js",
+  "author": "wendy chen",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.9.10"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog" 
+  }
+}
