@@ -1,7 +1,7 @@
 /*
  * @Author: wendy chen
  * @Date: 2024-05-30 13:49:15
- * @LastEditTime: 2024-05-31 16:25:56
+ * @LastEditTime: 2024-07-10 16:12:19
  * @LastEditors: wendy chen
  * @Description: 
  */
@@ -36,8 +36,24 @@ export default defineConfig({
               dirname: '_posts',
               // `entry page` (或者 `list page`) 的路径
               path: '/post/',
+              pagination: {
+                perPagePosts: 2
+              }
             },
           ],
+          frontmatters: [
+            {
+              id: "tag",
+              keys: ['tag', 'tags'],
+              path: '/tag/',
+              layout: 'Tag',
+              frontmatter: { title: 'Tag' },
+              itemlayout: 'Tag',
+              pagination: {
+                perPagePosts: 3
+              }
+            },
+          ]
         },
       ],
   ]
