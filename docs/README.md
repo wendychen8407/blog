@@ -8,9 +8,6 @@
 
 [[toc]]
 
-::: tip 
-这是一个提示
-:::
 
 ``` js {4}
 export default {

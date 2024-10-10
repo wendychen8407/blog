@@ -1,9 +1,9 @@
 <!--
  * @Author: wendy chen
  * @Date: 2024-05-30 13:49:25
- * @LastEditTime: 2024-07-10 16:16:29
+ * @LastEditTime: 2024-10-10 16:02:09
  * @LastEditors: wendy chen
- * @Description: 
+ * @Description: 博客首页
 -->
 # 你好, 我叫Wendy Chen
 
@@ -25,5 +25,4 @@ export default {
   }
 }
 ```
-
-<router-link to="/post/">Post</router-link>
+<button style="background-color: #4CAF50; border: none; color: white; padding: 10px 20px; text-align: center; display: inline-block;margin: 4px 2px; cursor: pointer; border-radius: 8px;"><router-link to="/post/" style="color: white; text-decoration: none;font-size: 16px;font-weight: bold;">start~</router-link></button>
